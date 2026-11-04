@@ -10,10 +10,10 @@ Source plugins that get chapters from sites, for [Recap Studio](https://github.c
    ```
    https://raw.githubusercontent.com/iEatNoodlez/RecapStudio-Sources/main/index.json
    ```
-2. **Install** the sites you use. Each one is checked against the list's SHA-256 first. They work at once, with no restart.
+2. Every site on it is installed, each checked against the list's SHA-256 first, and works at once, with no restart. Adult ones are installed switched off. Switch off the ones you don't use (from Recap Studio 0.2.5; before that, **Plugins…** → **Install** each one).
 3. In a project, **Chapters → Get chapters from a site**: paste a series' link, or search one site (or **All your sources**, from Recap Studio 0.2.3). **Check for new chapters** and **New chapters on a schedule** use them too.
 
-When a site changes its pages, its source stops working until it's fixed here. Settings → Sources then offers the new version as an update.
+When a site changes its pages, its source stops working until it's fixed here. Recap Studio gets the new version the next time it starts (or with the list's **Check now**), and sites added here are installed then too.
 
 ## The sites
 
