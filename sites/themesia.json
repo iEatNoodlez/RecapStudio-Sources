@@ -1,0 +1,24 @@
+{
+ "engine": "themesia",
+ "sites": [
+  {
+   "id": "kingofshojo",
+   "name": "King of Shojo",
+   "base": "https://kingofshojo.com",
+   "options": {
+    "kind": "webtoon"
+   },
+   "test": "love"
+  },
+  {
+   "id": "madarascans",
+   "name": "Madara Scans",
+   "base": "https://madarascans.net",
+   "options": {
+    "kind": "webtoon",
+    "path": "series"
+   },
+   "test": "disciples are all big villains"
+  }
+ ]
+}

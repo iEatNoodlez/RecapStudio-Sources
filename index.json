@@ -1,0 +1,394 @@
+{
+ "name": "Recap Studio sources (RecapStudio-Sources)",
+ "plugins": [
+  {
+   "id": "asura",
+   "name": "Asura Scans",
+   "version": "1.0.0",
+   "file": "dist/asura.py",
+   "sha256": "e53d6223ea604930077d5c340e942b93ca4730c23842695d8101af31eda0181e",
+   "sites": [
+    "asurascans.com",
+    "asuracomic.net"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Latest"
+   ],
+   "summary": "Asura Scans: chapters from asurascans.com (old asuracomic.net links open too), from the site's own JSON API."
+  },
+  {
+   "id": "drakecomic",
+   "name": "Drake Scans",
+   "version": "1.0.0",
+   "file": "dist/drakecomic.py",
+   "sha256": "daef159d1b25db6022254594eba91cd3b43033334b5177ccb62faf67dde00448",
+   "sites": [
+    "drakecomic.net"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Latest"
+   ],
+   "summary": "Drake Scans: chapters from drakecomic.net, a site of its own (built on NovelDex, no longer on MangaThemesia)."
+  },
+  {
+   "id": "fanfox",
+   "name": "FanFox (MangaFox)",
+   "version": "1.0.0",
+   "file": "dist/fanfox.py",
+   "sha256": "bcf447d248e20890da1b816a32d9c48fd8a0164e491cc0b2b93dc4150a71d4bf",
+   "sites": [
+    "fanfox.net"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Latest"
+   ],
+   "summary": "FanFox (MangaFox): chapters from fanfox.net, a site built on the MangaHere/MangaFox platform (one company's two manga sites)."
+  },
+  {
+   "id": "flame",
+   "name": "Flame Comics",
+   "version": "1.0.0",
+   "file": "dist/flame.py",
+   "sha256": "fa89fe61bba45aef00bc93287d99059c76533f831629aa64d548ec2ff3d7b799",
+   "sites": [
+    "flamecomics.xyz",
+    "flamecomics.com"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Latest"
+   ],
+   "summary": "Flame Comics: chapters from flamecomics.xyz, from the data its pages carry (a Next.js site)."
+  },
+  {
+   "id": "hivetoons",
+   "name": "Hive Toons",
+   "version": "1.0.0",
+   "file": "dist/hivetoons.py",
+   "sha256": "c1a7fcb99e74a1e273d6de2e6400046e72fb9f2197d1881af4f0905428823802",
+   "sites": [
+    "hivetoons.org",
+    "hivetoon.com"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Latest"
+   ],
+   "summary": "Hive Toons: chapters from hivetoons.org, a site built on VTheme (V DEV's comic site system, with a JSON API at api.<site>/api)."
+  },
+  {
+   "id": "kingofshojo",
+   "name": "King of Shojo",
+   "version": "1.0.0",
+   "file": "dist/kingofshojo.py",
+   "sha256": "718e13340f9a83e3fc60e4b0eacc850ca5d5e9effb94630e0f5f6bbcd1aa8c64",
+   "sites": [
+    "kingofshojo.com"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Latest"
+   ],
+   "summary": "King of Shojo: chapters from kingofshojo.com, a site built on MangaThemesia (Themesia's MangaReader, a WordPress theme many comic sites are built on)."
+  },
+  {
+   "id": "madarascans",
+   "name": "Madara Scans",
+   "version": "1.0.0",
+   "file": "dist/madarascans.py",
+   "sha256": "a00d9999e07bbba340e6a18892ab2dc53c5e4f11620af6c8f934a9669ac52578",
+   "sites": [
+    "madarascans.net"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Latest"
+   ],
+   "summary": "Madara Scans: chapters from madarascans.net, a site built on MangaThemesia (Themesia's MangaReader, a WordPress theme many comic sites are built on)."
+  },
+  {
+   "id": "manga18fx",
+   "name": "Manga18fx",
+   "version": "1.0.0",
+   "file": "dist/manga18fx.py",
+   "sha256": "c919e02daef8eda4af8a22fc9001fd62dffb43866fcf16d2475fe0045bb78854",
+   "sites": [
+    "manga18fx.com"
+   ],
+   "language": "en",
+   "nsfw": true,
+   "lists": [
+    "Popular",
+    "Latest"
+   ],
+   "summary": "Manga18fx: chapters from manga18fx.com, an adult manhwa site with a layout of its own (Madara-like, not Madara)."
+  },
+  {
+   "id": "mangadex",
+   "name": "MangaDex",
+   "version": "1.0.0",
+   "file": "dist/mangadex.py",
+   "sha256": "a4b2dbc01cc5c2386a2aa3ee84d508c8365618d4505c8a4d3ad44694c5bf2a3d",
+   "sites": [
+    "mangadex.org"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Latest"
+   ],
+   "summary": "MangaDex: English chapters from mangadex.org, through its official public API (api.mangadex.org, no account)."
+  },
+  {
+   "id": "mangahere",
+   "name": "MangaHere",
+   "version": "1.0.0",
+   "file": "dist/mangahere.py",
+   "sha256": "d110a491b2365293172bc08a8ac48a2c7db836d98d8fa4238e124be9521b60d6",
+   "sites": [
+    "mangahere.cc"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Latest"
+   ],
+   "summary": "MangaHere: chapters from mangahere.cc, a site built on the MangaHere/MangaFox platform (one company's two manga sites)."
+  },
+  {
+   "id": "mangakakalot",
+   "name": "MangaKakalot",
+   "version": "1.0.0",
+   "file": "dist/mangakakalot.py",
+   "sha256": "a0a81629404407935e51f53f84c655464b87119cbc32b7b30a87dae04a13537c",
+   "sites": [
+    "kakamanga.com",
+    "mangakakalot.gg"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Latest",
+    "New",
+    "Completed"
+   ],
+   "summary": "MangaKakalot: chapters from kakamanga.com, a site built on the Manganato platform (MangaNato, MangaNelo, MangaKakalot)."
+  },
+  {
+   "id": "mangakatana",
+   "name": "MangaKatana",
+   "version": "1.0.0",
+   "file": "dist/mangakatana.py",
+   "sha256": "e89d4f64ec2294d7987cc997937d6d78aa421133b114e5e2655c32e98c928b9f",
+   "sites": [
+    "mangakatana.com"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Hot",
+    "Latest updates",
+    "New manga"
+   ],
+   "summary": "MangaKatana: chapters from mangakatana.com."
+  },
+  {
+   "id": "mangaread",
+   "name": "MangaRead",
+   "version": "1.0.0",
+   "file": "dist/mangaread.py",
+   "sha256": "898f8a71485b2c64f28ed248512bab8924ae29813dfc1461c54a42f3cf5de906",
+   "sites": [
+    "mangaread.org"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Latest"
+   ],
+   "summary": "MangaRead: chapters from mangaread.org, a site built on Madara (a WordPress theme many comic sites are built on)."
+  },
+  {
+   "id": "manhwatop",
+   "name": "Manhwatop",
+   "version": "1.0.0",
+   "file": "dist/manhwatop.py",
+   "sha256": "4d52662bc4eb51cc62bac08bc4662702ae7f9079946069a91e5a5b7b61c33100",
+   "sites": [
+    "manhwatop.com"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Latest"
+   ],
+   "summary": "Manhwatop: chapters from manhwatop.com, a site built on Madara (a WordPress theme many comic sites are built on)."
+  },
+  {
+   "id": "mgeko",
+   "name": "Mgeko",
+   "version": "1.0.0",
+   "file": "dist/mgeko.py",
+   "sha256": "d3b272b0d8f32ed6202f767961a01ccccb28424ac482d0030aec256ca18b7cc3",
+   "sites": [
+    "mgeko.cc",
+    "mangageko.com"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Popular this week",
+    "Latest updates",
+    "Recently added"
+   ],
+   "summary": "Mgeko: chapters from www.mgeko.cc (formerly MangaGeko)."
+  },
+  {
+   "id": "omegascans",
+   "name": "Omega Scans",
+   "version": "1.0.0",
+   "file": "dist/omegascans.py",
+   "sha256": "4f13260db8348f99d412b2300fc4981b1f428584312e2020dffc5217115a8aff",
+   "sites": [
+    "omegascans.org"
+   ],
+   "language": "en",
+   "nsfw": true,
+   "lists": [
+    "Popular",
+    "Latest"
+   ],
+   "summary": "Omega Scans: chapters from omegascans.org, a site built on HeanCMS (a comic site system with its own JSON API, at api.<site>)."
+  },
+  {
+   "id": "rizzfables",
+   "name": "Rizz Fables",
+   "version": "1.0.0",
+   "file": "dist/rizzfables.py",
+   "sha256": "758285abca12ce698693a35b80ff677b0202852a6db9a32d0921b646b931fadf",
+   "sites": [
+    "rizzfables.com"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Latest"
+   ],
+   "summary": "Rizz Fables: chapters from rizzfables.com, a site of its own that copies MangaThemesia's pages (not WordPress)."
+  },
+  {
+   "id": "toonily",
+   "name": "Toonily",
+   "version": "1.0.0",
+   "file": "dist/toonily.py",
+   "sha256": "3dfd410d8a59e9f2e59671266570089686c41411b114bcdec0c73f6b801f285f",
+   "sites": [
+    "toonily.com"
+   ],
+   "language": "en",
+   "nsfw": true,
+   "lists": [
+    "Popular",
+    "Latest"
+   ],
+   "summary": "Toonily: chapters from toonily.com, a site built on Madara (a WordPress theme many comic sites are built on)."
+  },
+  {
+   "id": "vortexscans",
+   "name": "Vortex Scans",
+   "version": "1.0.0",
+   "file": "dist/vortexscans.py",
+   "sha256": "d0b43850e88bfd81e8a892eb7a9b25902ff63023a4b5fec7f282e6720a5a37bb",
+   "sites": [
+    "vortexscans.org"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Latest"
+   ],
+   "summary": "Vortex Scans: chapters from vortexscans.org, a site built on VTheme (V DEV's comic site system, with a JSON API at api.<site>/api)."
+  },
+  {
+   "id": "webtoons",
+   "name": "Webtoons",
+   "version": "1.0.0",
+   "file": "dist/webtoons.py",
+   "sha256": "47fa407f485067a094364c9b350a57105098190aeeec6a5a34220fab81570680",
+   "sites": [
+    "webtoons.com"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Trending",
+    "Latest (Originals updated today)",
+    "Canvas: popular",
+    "Completed Originals"
+   ],
+   "summary": "Webtoons: English Originals and Canvas series from www.webtoons.com, the official WEBTOON site."
+  },
+  {
+   "id": "weebcentral",
+   "name": "WeebCentral",
+   "version": "1.0.0",
+   "file": "dist/weebcentral.py",
+   "sha256": "a1b2650f08eaaa566db5a62dba23f069b6b89dac1bb3660ee81318ba164a5743",
+   "sites": [
+    "weebcentral.com"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Latest updates",
+    "Recently added"
+   ],
+   "summary": "WeebCentral: chapters from weebcentral.com (what MangaSee and MangaLife became)."
+  },
+  {
+   "id": "zinmanga",
+   "name": "ZinManga",
+   "version": "1.0.0",
+   "file": "dist/zinmanga.py",
+   "sha256": "8d3e87c8d6dd19d0031466d9c308df8ecabcdd734456077bde4759bcf0759aaa",
+   "sites": [
+    "zinmanga.net"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Latest",
+    "Trending"
+   ],
+   "summary": "ZinManga: chapters from zinmanga.net, a site that looks like Madara but loads its chapters from its own comics API."
+  }
+ ]
+}

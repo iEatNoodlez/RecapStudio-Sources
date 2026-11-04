@@ -1,0 +1,17 @@
+{
+ "engine": "mangahere",
+ "sites": [
+  {
+   "id": "mangahere",
+   "name": "MangaHere",
+   "base": "https://www.mangahere.cc",
+   "test": "darwin"
+  },
+  {
+   "id": "fanfox",
+   "name": "FanFox (MangaFox)",
+   "base": "https://fanfox.net",
+   "test": "darwin"
+  }
+ ]
+}

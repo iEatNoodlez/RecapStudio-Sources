@@ -1,0 +1,12 @@
+{
+ "engine": "manganato",
+ "sites": [
+  {
+   "id": "mangakakalot",
+   "name": "MangaKakalot",
+   "base": "https://www.kakamanga.com",
+   "also": ["mangakakalot.gg"],
+   "test": "solo leveling"
+  }
+ ]
+}

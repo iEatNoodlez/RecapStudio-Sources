@@ -1,0 +1,18 @@
+{
+ "engine": "vtheme",
+ "sites": [
+  {
+   "id": "hivetoons",
+   "name": "Hive Toons",
+   "base": "https://hivetoons.org",
+   "also": ["hivetoon.com"],
+   "test": "duke"
+  },
+  {
+   "id": "vortexscans",
+   "name": "Vortex Scans",
+   "base": "https://vortexscans.org",
+   "test": "solo"
+  }
+ ]
+}

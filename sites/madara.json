@@ -1,0 +1,37 @@
+{
+ "engine": "madara",
+ "sites": [
+  {
+   "id": "mangaread",
+   "name": "MangaRead",
+   "base": "https://www.mangaread.org",
+   "options": {
+    "kind": "webtoon"
+   },
+   "test": "solo"
+  },
+  {
+   "id": "manhwatop",
+   "name": "Manhwatop",
+   "base": "https://manhwatop.com",
+   "options": {
+    "kind": "webtoon"
+   },
+   "test": "solo"
+  },
+  {
+   "id": "toonily",
+   "name": "Toonily",
+   "base": "https://toonily.com",
+   "nsfw": true,
+   "options": {
+    "kind": "webtoon",
+    "path": "serie",
+    "cookies": {
+     "toonily-mature": "1"
+    }
+   },
+   "test": "love"
+  }
+ ]
+}

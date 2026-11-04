@@ -1,0 +1,4 @@
+dist/*.py text eol=lf
+index.json text eol=lf
+*.py text eol=lf
+*.json text eol=lf

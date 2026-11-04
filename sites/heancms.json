@@ -1,0 +1,15 @@
+{
+ "engine": "heancms",
+ "sites": [
+  {
+   "id": "omegascans",
+   "name": "Omega Scans",
+   "base": "https://omegascans.org",
+   "nsfw": true,
+   "options": {
+    "kind": "webtoon"
+   },
+   "test": "love"
+  }
+ ]
+}
