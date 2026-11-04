@@ -70,6 +70,8 @@ Use Recap Studio's own Python (`<Recap Studio>\.venv\Scripts\python.exe` from so
 
 **Changing an engine:** raise the `version` in its first lines, so every site on it is offered as an update.
 
+**With an AI agent:** [skills/make-a-source/SKILL.md](skills/make-a-source/SKILL.md) is a skill for Claude Code and other agents. It walks them through adding a site or fixing one, the way this repository does it: telling which engine a site is built on, writing its entry or plugin, building and checking. It also covers what never goes in, such as getting around Cloudflare or locked chapters. Point your agent at it, or copy the folder into your agent's skills (`.claude/skills/` for Claude Code).
+
 How plugins are written (what each function gets and gives) is in Recap Studio's docs: [Getting chapters from sites](https://github.com/iEatNoodlez/RecapStudio/blob/main/docs/sources.md#writing-a-plugin). Many sites' layouts were worked out from [HaruNeko](https://github.com/manga-download/haruneko)'s connectors (public domain).
 
 ## License
