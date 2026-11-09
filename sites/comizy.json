@@ -1,0 +1,20 @@
+{
+ "engine": "comizy",
+ "sites": [
+  {
+   "id": "comizy",
+   "name": "Comizy",
+   "base": "https://comizy.io",
+   "nsfw": true,
+   "test": "solo"
+  },
+  {
+   "id": "toontop",
+   "name": "ToonTop",
+   "base": "https://toontop.io",
+   "nsfw": true,
+   "options": {"kind": "webtoon"},
+   "test": "solo"
+  }
+ ]
+}

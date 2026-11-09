@@ -32,6 +32,63 @@
     }
    },
    "test": "love"
+  },
+  {
+   "id": "lhtranslation",
+   "name": "LHTranslation",
+   "base": "https://lhtranslation.net",
+   "test": "love"
+  },
+  {
+   "id": "mangadistrict",
+   "name": "Manga District",
+   "base": "https://mangadistrict.com",
+   "options": {
+    "path": "series"
+   },
+   "test": "solo"
+  },
+  {
+   "id": "mangasushi",
+   "name": "Mangasushi",
+   "base": "https://mangasushi.org",
+   "test": "love"
+  },
+  {
+   "id": "manhuaplus",
+   "name": "ManhuaPlus",
+   "base": "https://manhuaplus.com",
+   "options": {
+    "kind": "webtoon"
+   },
+   "test": "martial"
+  },
+  {
+   "id": "manhwaclub",
+   "name": "Manhwaclub",
+   "base": "https://manhwaclub.net",
+   "options": {
+    "kind": "webtoon"
+   },
+   "test": "solo"
+  },
+  {
+   "id": "manhuahot",
+   "name": "ManhuaHot",
+   "base": "https://manhuahot.com",
+   "options": {
+    "kind": "webtoon"
+   },
+   "test": "martial"
+  },
+  {
+   "id": "mangaowl",
+   "name": "MangaOwl",
+   "base": "https://mangaowl.io",
+   "test": "solo",
+   "options": {
+    "path": "read-1"
+   }
   }
  ]
 }

@@ -20,6 +20,42 @@
    "summary": "Asura Scans: chapters from asurascans.com (old asuracomic.net links open too), from the site's own JSON API."
   },
   {
+   "id": "comizy",
+   "name": "Comizy",
+   "version": "1.0.0",
+   "file": "dist/comizy.py",
+   "sha256": "68da88f383974b31d50facc3f226ed08fe564a9a18668d9c2004894a1e015fc4",
+   "sites": [
+    "comizy.io"
+   ],
+   "language": "en",
+   "nsfw": true,
+   "lists": [
+    "Popular",
+    "Latest",
+    "Recently added"
+   ],
+   "summary": "Comizy: chapters from comizy.io, a site built on the Comizy reader (Comizy, TOONTOP: a Next.js site with a JSON API at api.<site>)."
+  },
+  {
+   "id": "demonicscans",
+   "name": "Demonic Scans",
+   "version": "1.0.0",
+   "file": "dist/demonicscans.py",
+   "sha256": "976587e343f9503d3a16c6229e35bcf9001f842eef974ad12f40a03067b9dfdf",
+   "sites": [
+    "demonicscans.org"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Latest updates",
+    "Top views",
+    "New titles"
+   ],
+   "summary": "Demonic Scans: chapters from demonicscans.org (its own translations and others', manhwa, manhua and manga)."
+  },
+  {
    "id": "drakecomic",
    "name": "Drake Scans",
    "version": "1.0.0",
@@ -72,6 +108,59 @@
    "summary": "Flame Comics: chapters from flamecomics.xyz, from the data its pages carry (a Next.js site)."
   },
   {
+   "id": "genztoons",
+   "name": "Genz Toon",
+   "version": "1.0.0",
+   "file": "dist/genztoons.py",
+   "sha256": "eb306acb8975e46e0748cf6404dcb49582135c97a35626cc6e6d5730ed0eac6d",
+   "sites": [
+    "genztoons.org"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Latest updates",
+    "Trending",
+    "Recently added"
+   ],
+   "summary": "Genz Toon: chapters from genztoons.org (manhwa, with a few manga and comics; its novels are left out)."
+  },
+  {
+   "id": "hachiraw",
+   "name": "Hachiraw",
+   "version": "1.0.0",
+   "file": "dist/hachiraw.py",
+   "sha256": "606fd3937a68ad3ae1355cd15bb707d2d942d89ba3d4a3fbb3004d873b1ba2db",
+   "sites": [
+    "hachiraw.win"
+   ],
+   "language": "ja",
+   "nsfw": true,
+   "lists": [
+    "Latest updates",
+    "Action",
+    "Fantasy"
+   ],
+   "summary": "Hachiraw: chapters from hachiraw.win (Japanese raws; it calls itself adult and has adult categories)."
+  },
+  {
+   "id": "hentaiwebtoon",
+   "name": "Hentai Webtoon",
+   "version": "1.0.0",
+   "file": "dist/hentaiwebtoon.py",
+   "sha256": "ba3a29140908accdd1b1e96a69f525d36d5764399a90cae1d8c68834db74db76",
+   "sites": [
+    "hentaiwebtoon.com"
+   ],
+   "language": "en",
+   "nsfw": true,
+   "lists": [
+    "All series",
+    "Manhwa"
+   ],
+   "summary": "Hentai Webtoon: chapters from hentaiwebtoon.com, a small adult manhwa site with a layout of its own."
+  },
+  {
    "id": "hivetoons",
    "name": "Hive Toons",
    "version": "1.0.0",
@@ -107,6 +196,41 @@
    "summary": "King of Shojo: chapters from kingofshojo.com, a site built on MangaThemesia (Themesia's MangaReader, a WordPress theme many comic sites are built on)."
   },
   {
+   "id": "klmanga",
+   "name": "KLManga",
+   "version": "1.0.0",
+   "file": "dist/klmanga.py",
+   "sha256": "6e3afc958f37684e4b78f8602f4175af2c44f637d8dd99694a5f20e44c1b9012",
+   "sites": [
+    "jestful.net",
+    "klmanga.net"
+   ],
+   "language": "ja",
+   "nsfw": false,
+   "lists": [
+    "Most viewed",
+    "Latest updates"
+   ],
+   "summary": "KLManga: chapters from jestful.net (Japanese raws; the site klmanga.net moved to)."
+  },
+  {
+   "id": "lhtranslation",
+   "name": "LHTranslation",
+   "version": "1.0.0",
+   "file": "dist/lhtranslation.py",
+   "sha256": "27796c0db80a4218d407324afcd0b7b3841d6a6b4c76bef25a351a7fc93226ec",
+   "sites": [
+    "lhtranslation.net"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Latest"
+   ],
+   "summary": "LHTranslation: chapters from lhtranslation.net, a site built on Madara (a WordPress theme many comic sites are built on)."
+  },
+  {
    "id": "madarascans",
    "name": "Madara Scans",
    "version": "1.0.0",
@@ -122,6 +246,23 @@
     "Latest"
    ],
    "summary": "Madara Scans: chapters from madarascans.net, a site built on MangaThemesia (Themesia's MangaReader, a WordPress theme many comic sites are built on)."
+  },
+  {
+   "id": "manga18club",
+   "name": "Manga18.club",
+   "version": "1.0.0",
+   "file": "dist/manga18club.py",
+   "sha256": "d8c91044352ab74c5d94c2eb65fa9fef8cba7bbfe388694dc4b453873de65ee4",
+   "sites": [
+    "manga18.club"
+   ],
+   "language": "en",
+   "nsfw": true,
+   "lists": [
+    "Most viewed",
+    "Latest updates"
+   ],
+   "summary": "Manga18.club: chapters from manga18.club, an adult manhwa site with a layout of its own."
   },
   {
    "id": "manga18fx",
@@ -156,6 +297,58 @@
     "Latest"
    ],
    "summary": "MangaDex: English chapters from mangadex.org, through its official public API (api.mangadex.org, no account)."
+  },
+  {
+   "id": "mangadistrict",
+   "name": "Manga District",
+   "version": "1.0.0",
+   "file": "dist/mangadistrict.py",
+   "sha256": "8fad7a93a01df49655d1d09d1575e4913e5a9eff83d6edb94bbaf6b64343634d",
+   "sites": [
+    "mangadistrict.com"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Latest"
+   ],
+   "summary": "Manga District: chapters from mangadistrict.com, a site built on Madara (a WordPress theme many comic sites are built on)."
+  },
+  {
+   "id": "mangadna",
+   "name": "MangaDNA",
+   "version": "1.0.0",
+   "file": "dist/mangadna.py",
+   "sha256": "cc8affe86aabcdb1eeae68b99e31abef85d4a72f0dacd9a69b7097e44bbca5b7",
+   "sites": [
+    "mangadna.com"
+   ],
+   "language": "en",
+   "nsfw": true,
+   "lists": [
+    "Trending",
+    "Latest updates",
+    "Top rated"
+   ],
+   "summary": "MangaDNA: chapters from mangadna.com (English manhwa, much of it adult)."
+  },
+  {
+   "id": "mangafreak",
+   "name": "MangaFreak",
+   "version": "1.0.0",
+   "file": "dist/mangafreak.py",
+   "sha256": "74a288b73a6e161d43270308e08fe4486351e8f2284c10516a55ed1ee5277865",
+   "sites": [
+    "mangafreak.me"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Latest releases"
+   ],
+   "summary": "MangaFreak: chapters from mangafreak.me (ww3.mangafreak.me and its other ww* mirrors)."
   },
   {
    "id": "mangahere",
@@ -213,6 +406,40 @@
    "summary": "MangaKatana: chapters from mangakatana.com."
   },
   {
+   "id": "mangaowl",
+   "name": "MangaOwl",
+   "version": "1.0.0",
+   "file": "dist/mangaowl.py",
+   "sha256": "62a2952fb98a3d4c868eb33d27ac8123c1c4e0ffb4785bd1eed7993c3f87b50d",
+   "sites": [
+    "mangaowl.io"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Latest"
+   ],
+   "summary": "MangaOwl: chapters from mangaowl.io, a site built on Madara (a WordPress theme many comic sites are built on)."
+  },
+  {
+   "id": "mangapill",
+   "name": "Mangapill",
+   "version": "1.0.0",
+   "file": "dist/mangapill.py",
+   "sha256": "9bb4859966956f88c429fcf5039f465cffeb3ad8e032427d90c1c7730f8d0653",
+   "sites": [
+    "mangapill.com"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Trending",
+    "New chapters"
+   ],
+   "summary": "Mangapill: chapters from mangapill.com."
+  },
+  {
    "id": "mangaread",
    "name": "MangaRead",
    "version": "1.0.0",
@@ -228,6 +455,110 @@
     "Latest"
    ],
    "summary": "MangaRead: chapters from mangaread.org, a site built on Madara (a WordPress theme many comic sites are built on)."
+  },
+  {
+   "id": "mangasushi",
+   "name": "Mangasushi",
+   "version": "1.0.0",
+   "file": "dist/mangasushi.py",
+   "sha256": "70a8b317c37c24c15cfbb888c30ff5a810e42fa0585ceb2dd940b53cf68c690a",
+   "sites": [
+    "mangasushi.org"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Latest"
+   ],
+   "summary": "Mangasushi: chapters from mangasushi.org, a site built on Madara (a WordPress theme many comic sites are built on)."
+  },
+  {
+   "id": "mangatown",
+   "name": "MangaTown",
+   "version": "1.0.0",
+   "file": "dist/mangatown.py",
+   "sha256": "4b482d9c1c0f968a7c4e70a886316fa82210478db0c683c911031bb46780689d",
+   "sites": [
+    "mangatown.com"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Latest updates",
+    "Top rated"
+   ],
+   "summary": "MangaTown: chapters from www.mangatown.com."
+  },
+  {
+   "id": "manhuahot",
+   "name": "ManhuaHot",
+   "version": "1.0.0",
+   "file": "dist/manhuahot.py",
+   "sha256": "3e4e6d4f18e64ef90487cc1facba7d3699c98cc2b912b464f3bcd59b156ef314",
+   "sites": [
+    "manhuahot.com"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Latest"
+   ],
+   "summary": "ManhuaHot: chapters from manhuahot.com, a site built on Madara (a WordPress theme many comic sites are built on)."
+  },
+  {
+   "id": "manhuaplus",
+   "name": "ManhuaPlus",
+   "version": "1.0.0",
+   "file": "dist/manhuaplus.py",
+   "sha256": "0dc14c9852c873da6c5f5ab3e7d01e942a2476ea4f4c483cc9a706577de2ae5e",
+   "sites": [
+    "manhuaplus.com"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Latest"
+   ],
+   "summary": "ManhuaPlus: chapters from manhuaplus.com, a site built on Madara (a WordPress theme many comic sites are built on)."
+  },
+  {
+   "id": "manhwa18",
+   "name": "Manhwa18",
+   "version": "1.0.0",
+   "file": "dist/manhwa18.py",
+   "sha256": "b16778b1f18d7c926037c45989c9bbc83806d518e2284d4f640379f9616a2be7",
+   "sites": [
+    "manhwa18.com"
+   ],
+   "language": "en",
+   "nsfw": true,
+   "lists": [
+    "Most viewed",
+    "Latest updates",
+    "New series"
+   ],
+   "summary": "Manhwa18: chapters from manhwa18.com, an adult manhwa site with a layout of its own (the MyManga template)."
+  },
+  {
+   "id": "manhwaclub",
+   "name": "Manhwaclub",
+   "version": "1.0.0",
+   "file": "dist/manhwaclub.py",
+   "sha256": "dc518e3eb418acc75d784a6f16ebc5c3c68dfdb6ee94ac02fe892fb67a90a4b5",
+   "sites": [
+    "manhwaclub.net"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Latest"
+   ],
+   "summary": "Manhwaclub: chapters from manhwaclub.net, a site built on Madara (a WordPress theme many comic sites are built on)."
   },
   {
    "id": "manhwatop",
@@ -284,6 +615,43 @@
    "summary": "Omega Scans: chapters from omegascans.org, a site built on HeanCMS (a comic site system with its own JSON API, at api.<site>)."
   },
   {
+   "id": "rawdex",
+   "name": "RawDEX",
+   "version": "1.0.0",
+   "file": "dist/rawdex.py",
+   "sha256": "5968be942b40b7d9c6c2779f32a657e6589571f4bf92f07f4a1ada45f5f23f57",
+   "sites": [
+    "rawdex.net"
+   ],
+   "language": "ko",
+   "nsfw": true,
+   "lists": [
+    "Most viewed",
+    "Latest updates",
+    "Top this week"
+   ],
+   "summary": "RawDEX: chapters from rawdex.net (raws, mostly Korean manhwa with some Japanese: set to Korean; much of it adult)."
+  },
+  {
+   "id": "rawkuma",
+   "name": "Rawkuma",
+   "version": "1.0.0",
+   "file": "dist/rawkuma.py",
+   "sha256": "270f3936375d1d8b8f79f915953ba2b039d272a53ca3e5900b926ddfd02db4f9",
+   "sites": [
+    "rawkuma.net",
+    "rawkuma.com"
+   ],
+   "language": "ja",
+   "nsfw": false,
+   "lists": [
+    "Popular",
+    "Latest updates",
+    "Top rated"
+   ],
+   "summary": "Rawkuma: chapters from rawkuma.net (Japanese raws)."
+  },
+  {
    "id": "rizzfables",
    "name": "Rizz Fables",
    "version": "1.0.0",
@@ -301,6 +669,25 @@
    "summary": "Rizz Fables: chapters from rizzfables.com, a site of its own that copies MangaThemesia's pages (not WordPress)."
   },
   {
+   "id": "tcbscans",
+   "name": "TCB Scans",
+   "version": "1.0.0",
+   "file": "dist/tcbscans.py",
+   "sha256": "8aa3588466442c45dbffd3f43e3f8787a49c440538b88f948d8f627d083cff38",
+   "sites": [
+    "tcbonepiecechapters.com",
+    "tcbscans.com",
+    "tcbscans.me",
+    "onepiecechapters.com"
+   ],
+   "language": "en",
+   "nsfw": false,
+   "lists": [
+    "Projects"
+   ],
+   "summary": "TCB Scans: chapters from tcbonepiecechapters.com (One Piece, Chainsaw Man, Jujutsu Kaisen and the group's other"
+  },
+  {
    "id": "toonily",
    "name": "Toonily",
    "version": "1.0.0",
@@ -316,6 +703,24 @@
     "Latest"
    ],
    "summary": "Toonily: chapters from toonily.com, a site built on Madara (a WordPress theme many comic sites are built on)."
+  },
+  {
+   "id": "toontop",
+   "name": "ToonTop",
+   "version": "1.0.0",
+   "file": "dist/toontop.py",
+   "sha256": "936aa10b019578ddd499975f9e7e39efd5ea913ab20a0109f8435d6e86c447f0",
+   "sites": [
+    "toontop.io"
+   ],
+   "language": "en",
+   "nsfw": true,
+   "lists": [
+    "Popular",
+    "Latest",
+    "Recently added"
+   ],
+   "summary": "ToonTop: chapters from toontop.io, a site built on the Comizy reader (Comizy, TOONTOP: a Next.js site with a JSON API at api.<site>)."
   },
   {
    "id": "vortexscans",

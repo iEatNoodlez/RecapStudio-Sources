@@ -21,23 +21,46 @@ When a site changes its pages, its source stops working until it's fixed here. R
 | Site | Built on | Lists | Adult |
 |---|---|---|---|
 | [Asura Scans](https://asurascans.com) | its own | Popular, Latest |  |
+| [Comizy](https://comizy.io) | Comizy | Popular, Latest, Recently added | 18+ |
+| [Demonic Scans](https://demonicscans.org) | its own | Latest updates, Top views, New titles |  |
 | [Drake Scans](https://drakecomic.net) | its own | Popular, Latest |  |
 | [FanFox (MangaFox)](https://fanfox.net) | MangaHere | Popular, Latest |  |
 | [Flame Comics](https://flamecomics.xyz) | its own | Popular, Latest |  |
+| [Genz Toon](https://genztoons.org) | its own | Latest updates, Trending, Recently added |  |
+| [Hachiraw](https://hachiraw.win) | its own | Latest updates, Action, Fantasy | 18+ |
+| [Hentai Webtoon](https://hentaiwebtoon.com) | its own | All series, Manhwa | 18+ |
 | [Hive Toons](https://hivetoons.org) | VTheme | Popular, Latest |  |
 | [King of Shojo](https://kingofshojo.com) | MangaThemesia | Popular, Latest |  |
+| [KLManga](https://jestful.net) | its own | Most viewed, Latest updates |  |
+| [LHTranslation](https://lhtranslation.net) | Madara | Popular, Latest |  |
 | [Madara Scans](https://madarascans.net) | MangaThemesia | Popular, Latest |  |
+| [Manga District](https://mangadistrict.com) | Madara | Popular, Latest |  |
+| [Manga18.club](https://manga18.club) | its own | Most viewed, Latest updates | 18+ |
 | [Manga18fx](https://manga18fx.com) | its own | Popular, Latest | 18+ |
 | [MangaDex](https://mangadex.org) | its own | Popular, Latest |  |
+| [MangaDNA](https://mangadna.com) | its own | Trending, Latest updates, Top rated | 18+ |
+| [MangaFreak](https://mangafreak.me) | its own | Popular, Latest releases |  |
 | [MangaHere](https://mangahere.cc) | MangaHere | Popular, Latest |  |
 | [MangaKakalot](https://kakamanga.com) | Manganato | Popular, Latest, New, Completed |  |
 | [MangaKatana](https://mangakatana.com) | its own | Hot, Latest updates, New manga |  |
+| [MangaOwl](https://mangaowl.io) | Madara | Popular, Latest |  |
+| [Mangapill](https://mangapill.com) | its own | Trending, New chapters |  |
 | [MangaRead](https://mangaread.org) | Madara | Popular, Latest |  |
+| [Mangasushi](https://mangasushi.org) | Madara | Popular, Latest |  |
+| [MangaTown](https://mangatown.com) | its own | Popular, Latest updates, Top rated |  |
+| [ManhuaHot](https://manhuahot.com) | Madara | Popular, Latest |  |
+| [ManhuaPlus](https://manhuaplus.com) | Madara | Popular, Latest |  |
+| [Manhwa18](https://manhwa18.com) | its own | Most viewed, Latest updates, New series | 18+ |
+| [Manhwaclub](https://manhwaclub.net) | Madara | Popular, Latest |  |
 | [Manhwatop](https://manhwatop.com) | Madara | Popular, Latest |  |
 | [Mgeko](https://mgeko.cc) | its own | Popular, Popular this week, Latest updates, Recently added |  |
 | [Omega Scans](https://omegascans.org) | HeanCMS | Popular, Latest | 18+ |
+| [RawDEX](https://rawdex.net) | its own | Most viewed, Latest updates, Top this week | 18+ |
+| [Rawkuma](https://rawkuma.net) | its own | Popular, Latest updates, Top rated |  |
 | [Rizz Fables](https://rizzfables.com) | its own | Popular, Latest |  |
+| [TCB Scans](https://tcbonepiecechapters.com) | its own | Projects |  |
 | [Toonily](https://toonily.com) | Madara | Popular, Latest | 18+ |
+| [ToonTop](https://toontop.io) | Comizy | Popular, Latest, Recently added | 18+ |
 | [Vortex Scans](https://vortexscans.org) | VTheme | Popular, Latest |  |
 | [Webtoons](https://webtoons.com) | its own | Popular, Trending, Latest (Originals updated today), Canvas: popular, Completed Originals |  |
 | [WeebCentral](https://weebcentral.com) | its own | Popular, Latest updates, Recently added |  |
