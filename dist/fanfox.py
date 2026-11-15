@@ -3,13 +3,14 @@
 A Recap Studio source plugin from RecapStudio-Sources, made by its tools/build.py from engines/mangahere.py: change that, not this file."""
 RECAP_PLUGIN = 1
 NAME = 'FanFox (MangaFox)'
-VERSION = '1.0.0'
+VERSION = '1.0.0-1'
 SITES = ['fanfox.net']
 LANGUAGE = 'en'
 NSFW = False
 HEADERS = {'Referer': 'https://fanfox.net/'}
 LISTS = [{'id': 'popular', 'name': 'Popular'}, {'id': 'latest', 'name': 'Latest'}]
 DELAY = 0
+CHECK_COPIES = True
 BASE = 'https://fanfox.net'
 OPTIONS = {}
 

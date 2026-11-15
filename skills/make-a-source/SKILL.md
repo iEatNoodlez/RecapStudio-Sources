@@ -38,6 +38,7 @@ The **settings** are plain values at the top, which the app reads without runnin
 | `LISTS` | What `browse()` offers: `[{"id": "popular", "name": "Popular"}]`. |
 | `HEADERS` | Sent with every picture the app downloads for it, usually `{"Referer": "https://site/"}`. |
 | `DELAY` | Seconds between pictures, for sites that limit you. |
+| `CHECK_COPIES = True` | Only for a site seen listing the same chapter twice (uploaded again, or the whole chapter beside its halves). After getting chapters, Recap Studio compares their pictures with chapters numbered near them and passes over a new one whose pages are nearly all in another. Side stories keep their own pages, so they stay. Recap Studio 0.5.3 or later; older ones ignore it. |
 | `TEST_QUERY` | (This repository's own) what `tests/check.py` searches for. |
 
 The **functions** take and return plain data. Raise an exception with a readable message when something's wrong: the member sees it.
@@ -69,7 +70,7 @@ A site entry in `sites/<engine>.json` has:
 - `name`;
 - `base`: the site's address, with no trailing slash;
 - `test`: a word to search for that finds something;
-- when needed: `nsfw`, `language` (default `"en"`), `options` (what the engine's comment lists), `also` (old domains whose links it should open), `headers` (more picture headers), `delay`, `revision` and `summary`.
+- when needed: `nsfw`, `language` (default `"en"`), `options` (what the engine's comment lists), `also` (old domains whose links it should open), `headers` (more picture headers), `delay`, `copies` (`true` writes `CHECK_COPIES = True`), `revision` and `summary`.
 
 `build.py` writes the generated file's settings from the entry and defines `BASE`, `NAME` and `OPTIONS` before the engine's code, which uses them.
 

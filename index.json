@@ -75,9 +75,9 @@
   {
    "id": "fanfox",
    "name": "FanFox (MangaFox)",
-   "version": "1.0.0",
+   "version": "1.0.0-1",
    "file": "dist/fanfox.py",
-   "sha256": "bcf447d248e20890da1b816a32d9c48fd8a0164e491cc0b2b93dc4150a71d4bf",
+   "sha256": "50c95ea8cf3d67d74330cdbc47f454ce62bb1501fa31a01ea5530fb2dc726989",
    "sites": [
     "fanfox.net"
    ],

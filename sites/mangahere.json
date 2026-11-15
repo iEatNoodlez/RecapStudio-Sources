@@ -11,7 +11,9 @@
    "id": "fanfox",
    "name": "FanFox (MangaFox)",
    "base": "https://fanfox.net",
-   "test": "darwin"
+   "test": "darwin",
+   "copies": true,
+   "revision": "1"
   }
  ]
 }

@@ -51,7 +51,8 @@ def site_file(site: dict) -> str:
         "RECAP_PLUGIN": 1, "NAME": site["name"], "VERSION": version, "SITES": [host] + site.get("also", []),
         "LANGUAGE": site.get("language", "en"), "NSFW": bool(site.get("nsfw")),
         "HEADERS": {"Referer": base + "/", **site.get("headers", {})}, "LISTS": json.loads(meta.get("lists", "[]")),
-        "DELAY": site.get("delay", 0), "BASE": base, "OPTIONS": site.get("options", {}),
+        "DELAY": site.get("delay", 0), **({"CHECK_COPIES": True} if site.get("copies") else {}),
+        "BASE": base, "OPTIONS": site.get("options", {}),
     }
     head = (f'"""{site["name"]}: chapters from {host}, a site built on {meta["title"]}.\n\n'
             f"A Recap Studio source plugin from RecapStudio-Sources, made by its tools/build.py from engines/"
